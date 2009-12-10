@@ -22,7 +22,7 @@ if len(sys.argv) < 3:
 nic = sys.argv[1]    
 username = sys.argv[2]
 password = sys.argv[3]
-apiKey = '13483c44c4eafe86c2e31271cf12794e'
+apiKey = ''
 ipAddress = findIP(nic)
 
 for host in sys.argv[4:len(sys.argv)]:
